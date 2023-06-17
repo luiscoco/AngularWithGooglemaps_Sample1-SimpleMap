@@ -3,7 +3,9 @@
 Here's an Angular application that integrates the provided TypeScript code to show a simple Google Maps:
 
 1.Create a new Angular blank application.
+```
 ng new googlemaps_simplemap
+```
 
 2.Install the required dependencies:
 ```
