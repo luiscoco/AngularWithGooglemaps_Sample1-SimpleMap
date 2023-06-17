@@ -1,4 +1,4 @@
-# Angular with GoogleMaps integration. Show a SimpleMap.
+# Angular with GoogleMaps integration.
 
 Here's an Angular application that integrates the provided TypeScript code to show a simple Google Maps:
 
