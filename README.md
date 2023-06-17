@@ -12,7 +12,11 @@ ng new googlemaps_simplemap
 npm install @types/googlemaps
 ```
 
-3.Create a new Angular component. Let's call it MapComponent:
+3.Navigate inside the project folder 
+```
+cd project-folder
+```
+and create a new Angular component. Let's call it MapComponent:
 ```
 ng generate component Map
 ```
