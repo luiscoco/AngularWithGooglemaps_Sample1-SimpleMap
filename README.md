@@ -113,7 +113,13 @@ Inside the "build" target, ensure that the "options" property has a "polyfills" 
 import 'zone.js/dist/zone';  // Included by default in Angular CLI projects
 ```
 
-10.Start the application with the command:
+
+10.Confirm that you have added the Google Maps API script correctly in the index.html file. It should be placed just before the closing </body> tag, like this:
+```html
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+```
+
+11.Start the application with the command:
 ```
 ng serve -o
 ```
