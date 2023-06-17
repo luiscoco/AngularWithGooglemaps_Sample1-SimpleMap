@@ -21,7 +21,7 @@ ng generate component Map
 ```typescript
 import { Component, OnInit } from '@angular/core';
 
-declare var google: any;
+declare const google: any;
 
 @Component({
   selector: 'app-map',
@@ -40,8 +40,7 @@ export class MapComponent implements OnInit {
   }
 
   async initMap(): Promise<void> {
-    const { Map } = await google.maps.importLibrary("maps") as google.maps.MapsLibrary;
-    const map = new Map(document.getElementById("map"), {
+    const map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: -34.397, lng: 150.644 },
       zoom: 8,
     });
