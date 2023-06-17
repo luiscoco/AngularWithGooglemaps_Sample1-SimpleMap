@@ -113,5 +113,10 @@ Inside the "build" target, ensure that the "options" property has a "polyfills" 
 import 'zone.js/dist/zone';  // Included by default in Angular CLI projects
 ```
 
+10.Start the application with the command:
+```
+ng serve -o
+```
+
 
 
