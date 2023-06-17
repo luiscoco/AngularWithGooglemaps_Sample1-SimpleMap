@@ -108,6 +108,10 @@ Inside the "build" target, ensure that the "options" property has a "polyfills" 
 },
 ```
 
+9.Now, create a new file called polyfills.ts in the src folder of your project. Add the following content to the polyfills.ts file:
+```typescript
+import 'zone.js/dist/zone';  // Included by default in Angular CLI projects
+```
 
 
 
