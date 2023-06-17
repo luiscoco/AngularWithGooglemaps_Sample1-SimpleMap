@@ -13,7 +13,9 @@ npm install @types/googlemaps
 ```
 
 3.Create a new Angular component. Let's call it MapComponent:
-ng generate component Map
+```
+ng generate component 
+```
 
 4.Open the generated map.component.ts file and replace the content with the following code:
 ```typescript
