@@ -98,4 +98,16 @@ Add "node_modules/@types" to the "types" array. Your tsconfig.app.json file shou
 }
 ```
 
+8.In the root directory of your Angular project, open the angular.json file.
+Inside the "build" target, ensure that the "options" property has a "polyfills" property with the value set to "src/polyfills.ts". It should look like this:
+
+```
+"options": {
+  "polyfills": "src/polyfills.ts",
+  ...
+},
+```
+
+
+
 
