@@ -148,6 +148,9 @@ import 'zone.js/dist/zone';  // Included by default in Angular CLI projects
 ```
 ng serve -o
 ```
+## This is the application output
+
+![image](https://github.com/luiscoco/AngularWithGooglemaps_Sample1-SimpleMap/assets/32194879/f306bdc0-a28f-462e-b59c-64b8359dba46)
 
 
 
