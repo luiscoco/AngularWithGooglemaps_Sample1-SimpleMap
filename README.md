@@ -142,7 +142,7 @@ import 'zone.js/dist/zone';  // Included by default in Angular CLI projects
 ```html
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
 ```
-### VERY IMPORTANT! Do not forget to set the API KEY in the above line.
+### VERY IMPORTANT! Do not forget to set the "Google Maps API KEY" in the above line.
 
 11.Start the application with the command:
 ```
