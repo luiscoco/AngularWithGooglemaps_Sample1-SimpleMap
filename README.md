@@ -1,8 +1,27 @@
 # Angular with GoogleMaps integration.
 
+
+
+## How to create the Google Maps API Key credentials
+Navigate to this link :
+
+https://developers.google.com/maps/documentation/javascript/get-api-key
+
+Then press the button "Go to the credentials page":
+
+![image](https://github.com/luiscoco/AngularWithGooglemaps_Sample1-SimpleMap/assets/32194879/4041d9bd-c1d9-45d6-b605-ad48d2342c42)
+
+Then go to the "Credentials" option in this web page and create a new API Key:
+
+![image](https://github.com/luiscoco/AngularWithGooglemaps_Sample1-SimpleMap/assets/32194879/c41c6ece-30d5-45c5-abbb-7c0a415c2826)
+
+
+
+
+
+## Google Maps JavaScript/TypeScript API
+
 https://developers.google.com/maps/documentation/javascript/overview
-
-
 
 Here's an Angular application that integrates the provided TypeScript code to show a simple Google Maps:
 
